@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, transparent, #3498db);
+}
+
+.conteudoCentralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.categoria,
+.tamanhoPalavra {
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #000;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+button {
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input[type="text"],
+#guess-input {
+    height: 30px;
+    font-size: 1.8em;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+#guess-input {
+    width: 30px;
+    line-height: 35px;
+}
+
+.advertencia,
+.letrasUsadas,
+.palpites {
+    font-weight: bold;
+    font-size: .8em;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+.palpites {
+    margin-top: 20px;
+}
+
+.traço {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    button {
+        padding: 12px 20px;
+        font-size: 1em;
+    }
+
+    input[type="text"] {
+        height: 20px;
+        font-size: 1em;
+    }
+
+    .advertencia,
+    .palpites {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual?</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="favcon.png" type="image/png">
+</head>
+
+<body>
+    <div class="conteudoCentralizado">
+        <div class="container">
+            <h1>QUAL</h1>
+            <p id="category" class="categoria"></p>
+            <p id="word-length" class="tamanhoPalavra"></p>
+            <p id="word" class="traço"></p>
+            <p id="guesses" class="palpites"></p>
+            <input type="text" id="guess-input" maxlength="1" class="small-input">
+            <button id="guessButton">Chutar Letra</button>
+            <input type="text" id="word-guess-input" class="input">
+            <button id="wordGuessButton">Chutar Palavra</button>
+            <button id="newGameButton">Novo Jogo</button>
+            <p class="advertencia">NÃO UTILIZAR ACENTUAÇÃO GRÁFICA</p>
+            <p id="used-letters" class="letrasUsadas"></p>
+        </div>
+    </div>
+    <script src="jogo.js"></script>
+</body>
+
+</html>
