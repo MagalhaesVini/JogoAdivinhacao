@@ -1,11 +1,16 @@
+/* Geral */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background: url(/recursos/qualBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, transparent, #3498db);
 }
 
+/* Conteúdo Centralizado */
 .conteudoCentralizado {
     display: flex;
     justify-content: center;
@@ -13,23 +18,47 @@ body {
     min-height: 100vh;
 }
 
+/* Container Principal */
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    max-width: 400px;
+    padding: 2%;
+    max-width: 90%;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
+/* Input Container */
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.input-container input[type="text"],
+.input-container button {
+    flex: 1;
+    margin: 1vw;
+}
+
+/* Estilos Gerais para Botões e Inputs */
+button,
+input[type="text"],
+#guess-input {
+    border: solid 1px #000;
+    border-radius: 5px;
+}
+
+/* Títulos */
 h1 {
     font-size: 2em;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 10px 0;
 }
 
 .categoria,
@@ -37,18 +66,16 @@ h1 {
     font-weight: bold;
     font-size: 1.4em;
     color: #000;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 10px 0;
 }
 
+/* Estilo dos Botões */
 button {
     margin: 15px;
     padding: 10px 20px;
     font-size: 1.2em;
-    border: none;
-    border-radius: 5px;
     background-color: #3498db;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -57,6 +84,7 @@ button:hover {
     background-color: #2980b9;
 }
 
+/* Inputs */
 input[type="text"],
 #guess-input {
     height: 30px;
@@ -71,11 +99,11 @@ input[type="text"],
     line-height: 35px;
 }
 
-.advertencia,
+/* Outros Textos */
 .letrasUsadas,
 .palpites {
     font-weight: bold;
-    font-size: .8em;
+    font-size: 1em;
     font-family: Arial, sans-serif;
     color: #000;
 }
@@ -87,27 +115,64 @@ input[type="text"],
 .traço {
     text-align: center;
     font-weight: bold;
-    font-size: 15px;
-    letter-spacing: 20px;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    /* Estilo original */
 }
 
-@media screen and (max-width: 400px) {
+/* Responsividade - Maior que 901px */
+@media screen and (min-width: 901px) {
+    .input-container {
+        width: 70%;
+    }
+
     h1 {
+        font-size: 1.5em;
+    }
+
+    .input-container input[type="text"],
+    .input-container button {
+        flex-basis: auto;
+        width: auto;
+        margin: 5px;
+    }
+}
+
+/* Responsividade - Menor que 900px */
+@media screen and (max-width: 900px) {
+    
+    .input-container {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .categoria,
+    .tamanhoPalavra {
         font-size: 1.2em;
     }
 
     button {
-        padding: 12px 20px;
-        font-size: 1em;
+        padding: 8px 16px;
+        font-size: .9em;
     }
 
-    input[type="text"] {
-        height: 20px;
-        font-size: 1em;
+    input[type="text"],
+    #guess-input {
+        height: 25px;
+        font-size: 1.5em;
     }
 
-    .advertencia,
     .palpites {
+        font-size: 0.8em;
+    }
+
+    .traço {
+        text-align: center;
+        font-weight: bold;
         font-size: 1em;
+        letter-spacing: 8px;
     }
 }
