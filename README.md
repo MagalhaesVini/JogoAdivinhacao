@@ -3,9 +3,11 @@
 Sobre o Jogo "Qual?"
 
 Descrição:
+
     "Qual?" é um jogo de adivinhação de palavras divertido e desafiador que testa suas habilidades em diferentes categorias, como frutas, países, animais e cores.
 
 Como Jogar:
+
     Iniciar o Jogo: Acesse o jogo aqui (hospedado no Vercel).
     Escolher uma Categoria: Clique no botão "Novo Jogo" para gerar uma categoria aleatória.
     Adivinhar as Letras: Use a caixa de texto para adivinhar letras individuais (Chutar Letra).
