@@ -11,6 +11,7 @@
 Iniciar o Jogo: Acesse o jogo [aqui](https://jogo-adivinhacao-sage.vercel.app/){:target="_blank"}
 
 
+
     Escolher uma Categoria: Clique no botão "Novo Jogo" para gerar uma categoria aleatória.
 
     Adivinhar as Letras: Use a caixa de texto para adivinhar letras individuais (Chutar Letra).
@@ -48,5 +49,5 @@ Iniciar o Jogo: Acesse o jogo [aqui](https://jogo-adivinhacao-sage.vercel.app/){
     Este projeto está sob direitos autorais. 
 
     É livre para uso pessoal e não comercial. 
-    
+
     Para uso comercial ou outras questões, entre em contato.
