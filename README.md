@@ -8,7 +8,7 @@
 
 ## Como Jogar:
 
-    Iniciar o Jogo: Acesse o jogo [GitHub](https://github.com).
+Iniciar o Jogo: Acesse o jogo [GitHub](https://github.com).
     Escolher uma Categoria: Clique no botão "Novo Jogo" para gerar uma categoria aleatória.
     Adivinhar as Letras: Use a caixa de texto para adivinhar letras individuais (Chutar Letra).
     Adivinhar a Palavra: Se sentir confiante, utilize a segunda caixa de texto para adivinhar a palavra completa (Chutar Palavra).
