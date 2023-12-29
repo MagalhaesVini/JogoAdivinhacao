@@ -1,4 +1,4 @@
-##Qual?
+#Qual?
 
 Sobre o Jogo "Qual?"
 
