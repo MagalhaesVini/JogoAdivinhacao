@@ -4,15 +4,19 @@
 
 ## Descrição:
 
-    "Qual?" é um jogo de adivinhação de palavras divertido e desafiador que testa suas habilidades em diferentes categorias, como frutas, países, animais e cores.
+    "Qual?" é um jogo de adivinhação de palavras divertido e desafiador
+    que testa suas habilidades em diferentes categorias, como frutas, países, animais e cores.
 
 ## Como Jogar:
 Iniciar o Jogo: Acesse o jogo [aqui](https://jogo-adivinhacao-sage.vercel.app/)
 
 
     Escolher uma Categoria: Clique no botão "Novo Jogo" para gerar uma categoria aleatória.
+
     Adivinhar as Letras: Use a caixa de texto para adivinhar letras individuais (Chutar Letra).
+
     Adivinhar a Palavra: Se sentir confiante, utilize a segunda caixa de texto para adivinhar a palavra completa (Chutar Palavra).
+    
     Dica Importante: Evite utilizar acentuação gráfica nas palavras.
 
 ## Funcionalidades:
