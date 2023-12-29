@@ -1,12 +1,12 @@
-#Qual?
+# Qual?
 
-Sobre o Jogo "Qual?"
+## Sobre o Jogo "Qual?"
 
-Descrição:
+## Descrição:
 
     "Qual?" é um jogo de adivinhação de palavras divertido e desafiador que testa suas habilidades em diferentes categorias, como frutas, países, animais e cores.
 
-Como Jogar:
+## Como Jogar:
 
     Iniciar o Jogo: Acesse o jogo aqui (hospedado no Vercel).
     Escolher uma Categoria: Clique no botão "Novo Jogo" para gerar uma categoria aleatória.
@@ -14,12 +14,14 @@ Como Jogar:
     Adivinhar a Palavra: Se sentir confiante, utilize a segunda caixa de texto para adivinhar a palavra completa (Chutar Palavra).
     Dica Importante: Evite utilizar acentuação gráfica nas palavras.
 
-Funcionalidades:
+## Funcionalidades:
+
     Adivinhe letras individuais ou a palavra inteira.
     Categorias incluem frutas, países, animais e cores.
     Limite de palpites para tornar o jogo desafiador.
 
-Estrutura do Diretório do Projeto:
+## Estrutura do Diretório do Projeto:
+
     Qual/
     │
     ├── index.html
@@ -30,8 +32,10 @@ Estrutura do Diretório do Projeto:
     │   └── qualBackground.jpg
     └── README.md
 
-Informações de Contato:
+## Informações de Contato:
+
     Para dúvidas, sugestões ou questões relacionadas à licença, entre em contato via email ou GitHub Issues.
 
-Licença:
+## Licença:
+
     Este projeto está sob direitos autorais. É livre para uso pessoal e não comercial. Para uso comercial ou outras questões, entre em contato.
