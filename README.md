@@ -38,4 +38,6 @@
 
 ## Licença:
 
-    Este projeto está sob direitos autorais. É livre para uso pessoal e não comercial. Para uso comercial ou outras questões, entre em contato.
+    Este projeto está sob direitos autorais. 
+    É livre para uso pessoal e não comercial. 
+    Para uso comercial ou outras questões, entre em contato.
