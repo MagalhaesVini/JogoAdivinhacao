@@ -7,7 +7,8 @@
 
 ## Como Jogar:
 
-Iniciar o Jogo: Acesse o jogo [aqui](https://jogo-adivinhacao-sage.vercel.app/) (Você pode utilizar Ctrl + botão esquerdo para abrir em uma nova aba ou clicar com botão direito do mouse e abrir em nova aba)
+Iniciar o Jogo: Acesse o jogo [aqui](https://jogo-adivinhacao-sage.vercel.app/) 
+(Você pode utilizar Ctrl + botão esquerdo do mouse para abrir em uma nova aba)
 
     Escolher uma Categoria: Clique no botão "Novo Jogo" para gerar uma categoria aleatória.
 
