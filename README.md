@@ -8,8 +8,8 @@
     que testa suas habilidades em diferentes categorias, como frutas, países, animais e cores.
 
 ## Como Jogar:
-Iniciar o Jogo: Acesse o jogo [aqui](https://jogo-adivinhacao-sage.vercel.app/)
-<a href="https://jogo-adivinhacao-sage.vercel.app/" target="_blank">testezada</a>
+Iniciar o Jogo: Acesse o jogo [aqui](https://jogo-adivinhacao-sage.vercel.app/){:target="_blank" rel="noopener noreferrer"}
+<a href="https://jogo-adivinhacao-sage.vercel.app/" target="_blank">a</a>
 
 
 
