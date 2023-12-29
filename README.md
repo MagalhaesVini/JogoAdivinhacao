@@ -1,6 +1,4 @@
-# Qual?
-
-## Sobre o Jogo "Qual?"
+# Sobre o Jogo "Qual?"
 
  Descrição:
 
@@ -8,7 +6,8 @@
     que testa suas habilidades em diferentes categorias, como frutas, países, animais e cores.
 
 ## Como Jogar:
-Iniciar o Jogo: Acesse o jogo [aqui](https://jogo-adivinhacao-sage.vercel.app/)
+
+Iniciar o Jogo: Acesse o jogo [aqui](https://jogo-adivinhacao-sage.vercel.app/) (Você pode utilizar Ctrl + botão esquerdo para abrir em uma nova aba ou clicar com botão direito do mouse e abrir em nova aba)
 
     Escolher uma Categoria: Clique no botão "Novo Jogo" para gerar uma categoria aleatória.
 
